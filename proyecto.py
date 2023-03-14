@@ -102,7 +102,7 @@ if st.sidebar.checkbox('scatter de las pinturas'):
                    x=imprint,
                    y=rating,
                    color=years, 
-                   title="¿Que tan bailable son las canciones dependiendo del artista? Nivel (0-100)",
+                   title="Pixeles por siglo en el que nacio el artista",
                    labels=dict(Imprenta="imprint", years="years", print="Print"),
                    template="plotly_white")
     st.plotly_chart(fig_age)
