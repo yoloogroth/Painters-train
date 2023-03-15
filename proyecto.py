@@ -4,7 +4,7 @@ import re
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-st.set_page_config(page_title="painters train", page_icon=":sun:")
+st.set_page_config(page_title="painters train", page_icon=":art:")
 st.markdown("<h1 style='text-align: center; color: yellow;'>PAINTERS TRAIN</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center; color: white;'> Create by: YOLOTZIN GROTH  S20020311</h5>", unsafe_allow_html=True)
 
@@ -107,3 +107,4 @@ if st.sidebar.checkbox('scatter de las pinturas'):
                    template="plotly_white")
     st.plotly_chart(fig_age)
 
+    
