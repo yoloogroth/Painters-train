@@ -60,7 +60,7 @@ if btnFiltrarGenero:
     st.write(f'Total de pinturas: {filas}')
     st.dataframe(filtrar)
 
-#histograma de videojuegos
+#histograma de painters
 st.sidebar.title("Graficas:")
 agree = st.sidebar.checkbox("Histograma")
 if agree:
