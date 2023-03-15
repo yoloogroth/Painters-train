@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 st.set_page_config(page_title="painters train", page_icon=":sun:")
-st.markdown("<h1 style='text-align: center; color: purple;'>PAINTERS TRAIN</h1>", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center; color: Cyan;'>YOLOTZIN GROTH HERNANDEZ</h3>", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center; color: LightGreen;'>zs20020311</h3>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: yellow;'>PAINTERS TRAIN</h1>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center; color: Cyan;'> Create by:YOLOTZIN GROTH  S20020311</h5>", unsafe_allow_html=True)
+
 
 DATA_URL = 'https://raw.githubusercontent.com/yoloogroth/Painters-train/master/all_data_info.csv '
 
